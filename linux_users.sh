@@ -13,6 +13,10 @@ if [ $(id -u) -eq 0 ]; then
 		[ $? -eq 0 ] && echo "User has been added to system!" || echo "Failed to add a user!"
 	fi
 else
+<<<<<<< HEAD
 	echo "Only root may add a user to the system, deuxieme changement par moi"
+=======
+	echo "Only root may add a user to the system,changement de fichier par moi"
+>>>>>>> password_linux
 	exit 2
 fi
