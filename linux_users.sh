@@ -14,9 +14,14 @@ if [ $(id -u) -eq 0 ]; then
 	fi
 else
 
-==============<<<<<<<<<<<<<< olalala
-	<<<<<<< HEAD
+
+
+
 	echo "Only root may add a user to the system, deuxieme changement par moi"
+=======
+<<<<<<< HEAD
+	echo "Only root may add a user to the system, deuxieme changement par moi, feroiguejkidazhek"
+>>>>>>> feature1
 =======
 	echo "Only root may add a user to the system,changement de fichier par moi"
 >>>>>>> password_linux
